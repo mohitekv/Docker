@@ -1,0 +1,6 @@
+ cd project/P1/go-environment-variables/
+ vi Dockerfile
+ docker build -t go-app .
+docker run --rm --name go-container go-app
+ docker run --rm -e MESSAGE="Hello FROm DOECKER" --name  go-container  go-app
+
